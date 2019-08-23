@@ -1,1 +1,1 @@
-# Template för layou att ladda hem. 
+# Templates för layout
