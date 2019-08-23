@@ -1,0 +1,109 @@
+/* CSS Document */
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+.container {
+  width: 980px;
+  background: #eee;
+  margin: 0 auto;
+}
+
+header {
+  background: #cfc;
+  height: 200px;
+}
+
+nav {
+  height: 40px;
+  background: #666666;
+  width: 100%;
+}
+
+.menu {
+  float: right;
+  margin: 14px 0 0 0;
+}
+
+.menu li {
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #fff;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  list-style-type: none;
+}
+
+.menu li a {
+  color: #ccc;
+}
+
+.menu li a:hover {
+  color: #000;
+}
+
+aside {
+  float: left;
+  width: 180px;
+  background: #ffc;
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 720px;
+  float: left;
+}
+
+article {
+  margin-top: 40px;
+}
+
+.billboard .box {
+  width: 200px;
+  margin-top: 14px;
+  margin-left: 14px;
+  float: left;
+  padding: 5px;
+}
+
+footer {
+  padding: 10px;
+  background: #ccf;
+  position: relative;
+}
+
+
+.clearfloat {
+  clear: both;
+
+}
