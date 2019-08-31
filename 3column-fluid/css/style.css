@@ -1,4 +1,8 @@
 /* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: #fff;
   margin: 0;
@@ -17,19 +21,19 @@ h2 {
 }
 
 .container {
-  width: 980px;
-  background: #eee;
+  width: 80%;
+  background: #63cdda;
   margin: 0 auto;
 }
 
 header {
-  background: #cfc;
+  background: #f5cd79;
   height: 200px;
 }
 
 nav {
   height: 40px;
-  background: #666666;
+  background: #ea8685;
   width: 100%;
 }
 
@@ -49,16 +53,17 @@ nav {
 }
 
 .menu li a {
-  color: #ccc;
+  color: #303952;
 }
 
 .menu li a:hover {
   color: #000;
 }
 
+
 aside {
   float: left;
-  width: 180px;
+  width: 20%;
   background: #ffc;
   padding: 10px;
 }
@@ -80,28 +85,41 @@ a:focus {
 section {
   margin-bottom: 50px;
   padding: 10px;
-  width: 720px;
+  width: 60%;
   float: left;
+  padding: 20px;
 }
 
 article {
-  margin-top: 40px;
+  float: left;
+  width: 20%;
+  background-color: #596275;
 }
 
-.billboard .box {
-  width: 200px;
-  margin-top: 14px;
-  margin-left: 14px;
-  float: left;
-  padding: 5px;
+article .photos {
+  width: 100%;
+  padding: 10px;
+}
+
+.photos .img-container {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+}
+
+.img-container img {
+  max-width: 100%;
+
 }
 
 footer {
   padding: 10px;
-  background: #ccf;
-  position: relative;
+  background: #f19066;
 }
 
+footer p {
+  text-align: center;
+}
 
 .clearfloat {
   clear: both;

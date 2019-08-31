@@ -1,0 +1,128 @@
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+.container {
+  width: 80%;
+  background: #63cdda;
+  margin: 0 auto;
+}
+
+header {
+  background: #f5cd79;
+  height: 200px;
+}
+
+nav {
+  height: 40px;
+  background: #ea8685;
+  width: 100%;
+}
+
+.menu {
+  float: right;
+  margin: 14px 0 0 0;
+}
+
+.menu li {
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #fff;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1em;
+  list-style-type: none;
+}
+
+.menu li a {
+  color: #303952;
+}
+
+.menu li a:hover {
+  color: #000;
+}
+
+
+aside {
+  float: left;
+  width: 20%;
+  background: #ffc;
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 80%;
+  float: left;
+  padding: 20px;
+}
+
+
+
+article {
+  margin-top: 40px;
+}
+
+
+.photos {
+  width: 100%;
+}
+
+.photos .img-container {
+  width: 25%;
+  margin-top: 14px;
+  margin-right: 40px;
+  float: left;
+}
+
+.img-container img {
+  max-width: 100%;
+
+}
+
+footer {
+  padding: 10px;
+  background: #f19066;
+}
+
+footer p {
+  text-align: center;
+}
+
+.clearfloat {
+  clear: both;
+
+}
