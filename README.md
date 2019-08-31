@@ -1,1 +1,1 @@
-# Här kommer det finnas templates för olika layout med float. 
+# Templates för layout
